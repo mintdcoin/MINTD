@@ -1,0 +1,26 @@
+# /etc/conf.d/mintdd: config file for /etc/init.d/mintdd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mintd/mintd.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mintdd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mintdd.pid"
+
+# Where to write mintdd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mintdd"
+
+# User and group to own mintdd process
+#BITCOIND_USER="mintd"
+#BITCOIND_GROUP="mintd"
+
+# Path to mintdd executable
+#BITCOIND_BIN="/usr/bin/mintdd"
+
+# Nice value to run mintdd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

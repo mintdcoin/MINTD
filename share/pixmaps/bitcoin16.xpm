@@ -1,0 +1,34 @@
+/* XPM */
+static char *_6074f6e5bfe40f583e8664e22e68544[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 12 1 ",
+"  c #029B7F",
+". c #019C7E",
+"X c #019C7F",
+"o c #019D7F",
+"O c #029C7F",
+"+ c #029D7F",
+"@ c #019B80",
+"# c #029B80",
+"$ c #019C80",
+"% c #029C80",
+"& c #029D80",
+"* c None",
+/* pixels */
+"XXXXXXX**X$$&***",
+"XXXXXXX**XXXXX**",
+"XXXXXXX**XXXXXX*",
+"XXX$$XX**XX$XXX&",
+"XXX*#XX**X &*XXX",
+"$XX*XXX**XX&*XXX",
+"$XX*XXX**XX+*XXX",
+"$XX*XXX**XX+*XX$",
+"$XX*+XX**XX&*XX$",
+"XXX*+XX**XX&*XXX",
+"XXX*+XX**XX&*XXX",
+"$XX*+XX**XX$*XXX",
+"XXX*#XXX$X &*XXX",
+"$XX*&XXXXXX&*XXX",
+"*XX*$XXXXXX+*XXX",
+"**$* XXXXXX+*XXX"
+};

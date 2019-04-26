@@ -1,0 +1,26 @@
+[Unit]
+Description=MINTD's distributed currency daemon
+After=network.target
+
+[Service]
+User=mintd
+Group=mintd
+
+Type=forking
+PIDFile=/var/lib/mintdd/mintdd.pid
+
+ExecStart=/usr/bin/mintdd -daemon -pid=/var/lib/mintdd/mintdd.pid \
+          -conf=/etc/mintd/mintd.conf -datadir=/var/lib/mintdd
+
+ExecStop=-/usr/bin/mintd-cli -conf=/etc/mintd/mintd.conf \
+         -datadir=/var/lib/mintdd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
