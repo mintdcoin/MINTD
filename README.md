@@ -9,10 +9,6 @@ MINTD is a cutting edge cryptocurrency, with many features not available in most
 - Masternode technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 10K MINTD
 
-## BCT Thread ##
-
-https://bitcointalk.org/index.php?topic=
-
 ## Coin Specs ##
 
 <table>
@@ -56,7 +52,7 @@ https://bitcointalk.org/index.php?topic=
 <tbody>
 <tr>
 <td class="text-right">1</td>
-<td class="text-right">1&thinsp;&ndash;&thinsp;20000</td>
+<td class="text-right">201&thinsp;&ndash;&thinsp;20000&ast;</td>
 <td class="text-right">5.00</td>
 <td class="text-right">4.00</td>
 <td class="text-right">1.00</td>
@@ -238,3 +234,5 @@ https://bitcointalk.org/index.php?topic=
 </tr>
 </tbody>
 </table>
+
+&ast; First 200 blocks were used for premine
